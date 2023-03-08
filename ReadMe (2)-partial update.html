@@ -1,0 +1,967 @@
+<link rel="shortcut icon" href="pages/movelists/files/chars/trunksMv9-2_0/favicon.png" type="image/vnd.microsoft.icon" /> 
+<link rel="icon" href="pages/movelists/files/chars/trunksMv9-2_0/favicon.png" type="image/vnd.microsoft.icon" /> 
+<style type="text/css">
+    .body { 
+		background-color: #000000;
+	}
+	img.border1 { 
+		border-width: 1px; border-style:solid; border-color:#CCCCDD;
+	}
+    img.divider1 { 
+		border-width: 1px; border-style:solid; border-color:#CCCCDD;
+		width: 50%;
+		height: 8px;
+	}
+	p.basic_text {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 9px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: normal; 
+		line-height: 9px;
+		color: #ccccdd;
+	}
+	.movelist_table {
+		position:relative; 
+		margin-top: -3px;
+		margin-left: 3px; 
+		margin-right: 3px;
+		width:480px;
+		border-collapse: collapse;
+	}
+	.movelist_preview {
+		text-align: center;
+		width: 133px;
+		border: 1px solid white;
+	}
+	.movelist_name {
+		text-align: center;
+		width: 380px;
+		height: 24px;
+	    border: 1px solid white;
+	}
+    .movelist_power_indicator {
+		text-align: center;
+		width: 28px;
+		height: 24px;
+	    border: 1px solid white;
+	}
+	.movelist_command {
+		text-align: left;
+		width: 400px;
+		border: 1px solid white;
+	}
+	.movelist_type {
+		text-align: center;
+	    border: 1px solid white;
+	}
+   .movelist_info {
+		text-align: left;
+	    border: 1px solid white;
+		height: 22px;
+	}
+	p.movelist_header {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 14px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: bold; 
+		line-height: 20px;
+		color: #ccccdd;
+		text-shadow:1px 1px 0 #440088,
+		-1px -1px 0 #440088,
+		1px -1px 0 #440088,
+		-1px 1px 0 #440088,
+		0px 1px 0 #440088,
+		1px 0px 0 #440088,
+		0px -1px 0 #440088,
+		-1px 0px 0 #440088;
+	}
+	p.movelist_info_text {
+		font-family: Verdana,Geneva,sans-serif; 
+		font-size: 9px; 
+		font-style: normal; 
+		font-variant: normal; 
+		font-weight: normal; 
+		line-height: 10px;
+		color: #ccccdd;
+	}
+	
+	.general { 
+		border-width: 0px; border-style: none; border-color:#CCCCDD;
+		text-align:center; 
+		width: 100%;
+		font: 0.9em lucida console;
+		color: #CCCCDD;
+	}
+	.text_block { 
+		border-width: 0px; border-style: none; border-color:#CCCCDD;
+		margin-right: 20%; margin-left: 20%;
+		text-align:left; 
+		width: 60%;
+		font: 0.9em lucida console;
+		color: #CCCCDD;
+	}
+
+	#movelist_wrapper{
+	  display:table;
+	  margin:0 auto;
+	}
+	#movelist_row{
+	  display:table-row;
+	}
+	#movelist_row>div{
+	  display:table-cell
+	}
+	#movelist_col1{
+	  margin: 0 auto;
+	}
+	#movelist_col2{
+	  margin: 0 auto;
+	}
+	
+	.page_rm {
+	style=
+	position:relative; 
+	margin-left: auto; 
+	margin-right: auto; 
+	width:99.7%; 
+	height:99.7%; 
+	overflow:auto; 
+	overflow-x:hidden; 
+	border:1px solid #CCCCDD; 
+	background-color: #000000;"
+	}
+</style>
+<div id="char-trunksMv92" class="page_rm">
+	<table class="general">
+		<tr><td width="100%" height="16" align="center" valign="top" class="title"><p id="title-border"><h2>Future Trunks 2.0 Movelist and Info</h2></p></td></tr>
+			<tr><td>
+			<img align="center" src="pages/movelists/files/chars/trunksMv9-2_0/portrait.png" width="120" height="140">
+			<br/>
+			Version: 2.00<br/>
+			Sprites: JediStardust and Benhazard<br/>
+			Programming and FX: Chrono_Strife<br/>
+			<font size=1.5>
+			This character is open source! Please give JediStardust and Benhazard credit for the sprites!<br/>
+			<a href="http://chronostrife.herobo.com" target="_blank">Website</a> :: <a href="https://trello.com/b/ueee6T2G/cs-mugen-projects-characters" target="_blank">Trello</a> :: <a href="http://www.facebook.com/chrono.strife.7" target="_blank">Facebook</a><br/>
+			<br/>
+			</font>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="100%" height="8px"><br/>
+			<h3>Contents:</h3>
+			::<a href="#C1">Character Information</a>::<br/>
+			::<a href="#C1-Stat">Stats and Abilities</a>::<br/>
+			::<a href="#C2">Updates and Fixes</a>::<br/>
+			::<a href="#C3">Pallete Options</a>::<br/>
+			::<a href="#C4">Command List</a>::<br/>
+			::<a href="#C5">Credits and Shouts</a>::<br/>
+			<br/>
+			<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+			<h3><a name="C1">Character Information:</a></h3>
+			<table class ="general">
+			<tr>
+				<td width="30%"><img src="pages/movelists/files/chars/trunksMv9-2_0/ssj1-by_ameyzing-d4xibhv.png" align="right" width="120" height="140"></td>
+				<td width="50%" align="left">
+				Trunks is the half-human, half-saiyan son of Vegeta and Bulma. Trunks is a time traveler who comes from a timeline where Goku died from illness and all other Z Warrior have been killed by menacing Androids. His mission was to go to the past to save Goku and warn him of Earth's impending doom and assist them on the day of the Androids awakening.
+				</br></br>
+				Upon Trunks' return to the past to assist the battle against the Androids, he informed everyone that the future remained unchanged and that the timeline has already been distorted. Now there are more Androids hunting Goku and an even more malevolent being known as Cell who also came from a future that Trunks once fought to preserve.
+				</br></br>
+				</td><td>
+				</td width="20%">
+			</tr>
+			</table>
+			<br/>
+			<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+			<br/>
+			<div class="text_block" id="mugenchar-info">
+			TrunksMv9 2.0 by JediStardust, Benhazard, and Chrono_Strife is designed for MUGEN 1.1. Due to the nature of the code in the AIR and CNS as well as some of the contents of the SFF, I cannot guarantee this character will work in older versions of MUGEN. 
+			<br/><br/>
+			Voice Options: This character include both Japanese(default) voice acting and English.<br/>
+			Enable English VA by pointing to "TrunksMv9_CStrife/TrunksMv9_En_CStrife.def" instead of the "TrunksMv9_CStrife" in your MUGENs select.def. Or you can simply comment out the "sound" reference to the "*En*.SND" and removing the comment on the *Jp*.SND in this characters default .DEF.
+			<br/>
+			<div align="center"><img src="pages/movelists/files/chars/trunksMv9-2_0/old1.png" width="40" height="84"><img src="pages/movelists/files/chars/trunksMv9-2_0/pal1.png" width="52" height="99"></div>
+			<br/>
+			This is the 3rd version of the Trunks (Movie 9) character also called Trunkz. This one is completely redone as far as sprite go. I also wrote ton of new code intende to be used as a template for all future character to speed up development in the future for a potential full game.
+            <br/>
+			</div>
+			<br/>
+			<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+			<br/>
+			<h3><a name="C1-Stat">Stats and Abilities:</a></h3>
+			<table class="general">
+			<tr>
+			    <td width = "37%" ></td>
+				<td width = "13%" align="right">
+				<img src="pages/movelists/files/stats/lfe.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/res.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/str.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/pwr.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/eff.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/spd.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/tch.png"><img src="pages/movelists/files/stats/col.png"></br>
+				<img src="pages/movelists/files/stats/sty.png"><img src="pages/movelists/files/stats/col.png"></br></td>
+				<td width = "50%" align="left" >
+				<img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatG.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/Stat1.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"><img src="pages/movelists/files/stats/StatE.gif"></br>
+				<b><i>BALANCE</i></b><img src="pages/movelists/files/stats/blank.gif"></br></td>
+			</tr>
+		</table>
+		<h3>Unique Passives</h3>
+		<table class="general">
+			<tr>
+			    <td width = "20%" align="left"></td>
+				<td width = "20%" align="left">Rage Against the Machines</td>
+				<td width = "05%" align="left" >+1STR</td>
+				<td width = "55%" align="left" >Trunks' attacks are stronger when fighting against an Android, Cell, or Cell Jr.</td>
+			</tr>
+			<tr>
+				<td width = "20%" align="left"></td>
+				<td width = "20%" align="left">Respected Allies</td>
+				<td width = "05%" align="left" >+1PWR</td>
+				<td width = "55%" align="left" >Trunks fights at his limit when Vegeta or Gohan is his partner in Simul mode.</td>
+			</tr>
+		</table>
+		</br>
+		<i>All Stats relative to characters programmed by Chrono_Strife.</i></br>
+		<i>Each character uses a 20 point system.</i>
+		</br></br>
+		<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+		<h3><a name="C2">Updates and Fixes:</a></h3>
+		<table class="text_block">
+			<tr>
+			<td>
+			<b><u>December 25, 2017: Trunkz 2.0 Released</u></b></br>
+			=<b><i>General Changes:</i></b></br>
+			--Updated for Mugen 1.1!</br>
+			--Updated sprites by Benhazard and JediStardust!</br>
+			--Entirely remade and overhauled, even abilities that were carried ovr have been recoded entirely. </br>
+			--New prototype ki attack/fx/sound/commons system. (template for efficient character development)</br>
+			</br>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<b><u>December 25, 2007: Trunkz 1.5 Released</u></b></br>
+			=<b><i>Changes/Fixes:</i></b></br>
+			--Fixed the SSj Fall from Flight state showing his normal form animation.</br>
+			--Updated the tired out state, now the amount of times keys are tapped directly effects length of total time tired.</br>
+			--Added Recharge state. if you successfully leave tired Trunkz will regain a small amount of power.</br>
+			--Added Air Dash Upwards.</br>
+			--Dashing will last up to twice as long if you hold the corresponding directional key.</br>
+			--Slowed SSj Power Consumption.</br>
+			--SSj now works through rounds(unless Trunkz loses the round or his power falls below 1000).</br>
+			--New whirlwind effect added to power up and some other moves as well as some FX fixes.</br>
+			--Added a basic AI like Yamcha's or Recoome's.</br>
+			--Changed the command of his Sonic Kick and gave him the ability to use Brief's Dynamite while flying.</br>
+			--New Intros.</br>
+			--New Pallettes.</br>
+			--Kageyama Hironobu's Hikaru No Will Power was reinsterted in the credits, but in OGG form this time.</br>
+			--More sounds to some moves, tweaks on moves.</br>
+			--Short SSj Transformation added.</br>
+			</br>
+			</td>
+			</tr>
+			<tr>
+			<td>
+			<b><u>January 13, 2006: Trunkz 1.0 Released</u></b></br>
+			=<b><i>Additions:</i></b></br>
+			--Everything.</br>
+			--Sprites by Lonewolf</br>
+			</td>
+			</tr>
+			</table>
+			<img src="pages/movelists/files/news-border-image.png" class="border1" width="360px" height="8px">
+			<br/>
+			<h3><a name="C3">Pallette Options:</a></h3>
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal1.png" width="52" height="99" alt="A">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal2.png" width="52" height="99" alt="B">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal3.png" width="52" height="99" alt="C">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal4.png" width="52" height="99" alt="X">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal5.png" width="52" height="99" alt="Y">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal6.png" width="52" height="99" alt="Z">
+			<br/>
+			<img src="paBges/movelists/files/chars/trunksMv9-2_0/pal7.png" width="52" height="99" alt="Start+A">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal8.png" width="52" height="99" alt="Start+B">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal9.png" width="52" height="99" alt="Start+C">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal10.png" width="52" height="99" alt="Start+X">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal11.png" width="52" height="99" alt="Start+Y">
+			<img src="pages/movelists/files/chars/trunksMv9-2_0/pal12.png" width="52" height="99" alt="Start+Z">
+			</br>
+			In Order: A,B,C,X,Y,Z,S+A,S+B,ETC
+			</br>
+
+			<br/></br>
+		<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+<h3><a name="C4">Command List:</a></h3>
+<font face="verdana" color="#ccccdd" size=1.5>
+<h3>Basics/Button Key:</h3>
+<table style = "position:relative; margin-left: auto; margin-right: auto;width:600px; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Weak Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/x.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Medium Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/y.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Strong Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/z.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Weak Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Medium Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/b.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Strong Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/c.gif" width="29" height="29"></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Any Punch</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Any Kick</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+			<td/>
+			<td style="text-align: center; width: 30px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></br><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td style="text-align: center; width: 120px; border: 1px solid white;"><p class="movelist_header">Taunt</p></td>
+			<td style="text-align: center; width: 31px; border: 1px solid white;"><img src="pages/movelists/files/buttons/s.gif" width="29" height="29"></td>
+		</tr>
+	</tbody>
+</table>
+<br/>
+<table style = "position:relative; margin-left: auto; margin-right: auto;width:600px; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Stand:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Crouch:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Air:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Flying:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/flight.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Dash:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/dash.png" width="15" height="15"></td>
+			<td/>
+		</tr>
+		<tr>
+			<td/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Block:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/block.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Chain:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Hit:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/hit.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Fall:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/fall.png" width="15" height="15"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 70px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 14px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Downed:</p></td>
+			<td style="text-align: center; width: 17px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/liedown.png" width="15" height="15"></td>
+			<td/>
+		</tr>
+		
+	</tbody>
+</table>
+</br>
+<table style = "position:relative; margin-left: auto; margin-right: auto;width:600px; border-collapse: collapse;">
+	<tbody>
+		<tr>
+			<td/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Consumes power:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter.png" width="24" height="18"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Power level 1000:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter_lvl1.png" width="24" height="18"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Power level 2000:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter_lvl2.png" width="24" height="18"></td>
+			<td width="2px"/>
+			<td style="text-align: right; width: 80px; border: 1px solid white;"><p style="font-family: Verdana,Geneva,sans-serif; font-size: 12px; font-style: normal; font-variant: normal; font-weight: bold; line-height: 17px; color: #ccccdd;">Power level 3000:</p></td>
+			<td style="text-align: center; width: 24px; border: 1px solid white;"><img src="pages/movelists/files/state_type_icons/scouter_lvl3.png" width="24" height="18"></td>
+			<td/>
+		</tr>
+		
+	</tbody>
+</table>
+
+<br/>
+</br>
+<h3>Additional Basics:</h3>
+
+<div id="movelist_wrapper">
+    <div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/dash1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Dash/Air Dash</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3" ><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"> -or-
+					<img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"> -or-
+					<img src="pages/movelists/files/buttons/up.gif" width="29" height="29"><img src="pages/movelists/files/buttons/up.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Holding down the direction button will force the dash to last longer. Consecutive <b>Air Dashes</b> will consume power over time.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/super_jump1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Super Jump</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/up.gif" width="29" height="29"> -or- 
+					<img src="pages/movelists/files/buttons/up.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"> -or- 
+					<img src="pages/movelists/files/buttons/up.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Jump from a Crouched state. Leap greater distances and perform longer aerial combos. Can be chain into from <b>Launcher</b>.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">			
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/power_up1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Power Up</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/b.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/y.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Generates power over time.</p></td>
+				</tr>
+			</table>	  
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/zanzoken1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Zanzoken</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/x.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/dash.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can only be performed while Dashing and Air Dashing.</br>Used to create or close gaps as well as dodge powerful attacks.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">			
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/advance_guard1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Advance Guard</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/block.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can only be used while block an attack.<br/>Knocks the opponent far away.</p></td>
+				</tr>
+			</table>	  
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/recover1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Recovery Flip</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> -or- <img src="pages/movelists/files/buttons/k.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/fall.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Use to land from falls that are recoverable.</td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">			
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/upper1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Launcher</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Launches the opponent airborne. Can be follow-ed up with a super jump, air-combos, or <b>Intantaneous Chains</b>.</p></td>
+				</tr>
+			</table>	  
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/telechain1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Instantaneous Chain Combo</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="48" height="36"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/x.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Chains up to 3 times. <br/> Can be used after <b>Throw</b>, <b>Launcher</b>, and fully-charged <b>Power Kick</b>.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+</div>
+
+</br>        
+<h3>Throws and Grabs:</h3>
+
+<div id="movelist_wrapper">
+	<div id="movelist_row">
+		<div id="movelist_col1">
+			<table class = "movelist_table">
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/face_breaker1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Face Breaker</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/a.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/b.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can be performed in close proximity to the opponent.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/throw1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Throw</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/x.gif" width="29" height="29"> <img src="pages/movelists/files/buttons/plus.png"> <img src="pages/movelists/files/buttons/y.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Can be performed in close proximity to the opponent. Chains into <b>Crushing Tackle</b> or <b>Instantaneous Chain Combo.</b></p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+    <div id="movelist_row">
+        <div id="movelist_col1">
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/throw-chain1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Crushing Tackle</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="48" height="36"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Chains from <b>Throw</b>.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+</div>
+	
+		
+</br>
+<h3>Specials:</h3>
+<div id="movelist_wrapper">
+	<div id="movelist_row">
+		<div id="movelist_col1">
+			<table class = "movelist_table">
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/shoulder_bash1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Shoulder Bash</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A mid-strength attack the can quickly close and create gaps.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/knee-chain1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Garlic Dash</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="48" height="36"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Chains from <b>Shoulder Bash</b>. Dash forward and Knee the opponent into the air.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+		<div id="movelist_col1">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/smash1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Garlic Smash</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/chain_arrow.png" width="48" height="36"><img src="pages/movelists/files/buttons/chain_arrow.png" width="48" height="36"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Chains from <b>Garlic Dash</b>. Smash the opponent with your fist!</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/hellfire_kick1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Hellfire Kick</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A slow but very strong attack. Grants 1 stack of super armor. <br/> Successful hits can be chained into Makyo Meteor.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+		<div id="movelist_col1">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/meteor_crash1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Makyo Meteor</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A powerful aerial attack. Can be chained from <b>Hellfire Kick</b></p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/basic_ki1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Ki Repeater</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>	
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A long-ranged but weak attack.<br/> Tapping punch will launch up to 3 blasts in succession.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/meteor_crash1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Makyo Meteor</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/air.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/chain.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A powerful aerial attack. Can be chained from <b>Hellfire Kick</b></p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/power_kick1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Power Kick</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>	
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"><img src="pages/movelists/files/state_type_icons/crouch.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A fierce chargeable kick. Charge for more damage, a fully-charged kick can chain into <b>Instantaneous Chain Combo</b>.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/basic_ki1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Ki Repeater</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>	
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A long-ranged but weak attack.<br/> Tapping punch will launch up to 3 blasts in succession.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/ground_pound1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Ground Pounder</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>	
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A powerful eruption of ki bursts from the ground around Garlic Jr. Hold to charge and increase the distance of the energy bursts.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+		<div id="movelist_row">
+        <div id="movelist_col1">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/back_breaker1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Eternal Rage</p></td>
+					<td class = "movelist_power_indicator"/>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>	
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Garlic Jr's last remaining sanity snaps, sending him into a violent rage doing massive damage. Grants one stack of super armor.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+			
+			</table>
+		</div>
+    </div>
+</div>
+
+</br>
+<h3>Supers:</h3>
+<div id="movelist_wrapper">
+	<div id="movelist_row">
+		<div id="movelist_col1">
+			<table class = "movelist_table">
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/bash_and_blast1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Bash and Blast</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl1.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dr.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png" width="23" height="23"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+				</td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Performs a more powerful version of <b>Shoulder Bash</b> and a follows it up with an intense energy blast.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/belly_beam1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Belly Beam</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl1.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/dl.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png" width="23" height="23"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+				</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">A strong, growing, long-ranged beam is fired from Garlic Jr's belly.</b></p></td>
+				</tr>
+			</table>
+		</div>
+    </div>
+	
+	<div id="movelist_row">
+		<div id="movelist_col1">
+			<table class = "movelist_table">
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/rush_and_crush1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Rush and Crush</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl2.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png" width="23" height="23"><img src="pages/movelists/files/buttons/p.gif" width="29" height="29"></td>
+					</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Garlic Jr goes nuts and performs a crazed, crushing combo.</p></td>
+				</tr>
+			</table>
+        </div>
+		<div id="movelist_col2">
+			<table class = "movelist_table">		
+				<tr>
+					<td class = "movelist_preview" rowspan="2"><img src="pages/movelists/files/chars/garlicjr2_0/preview/deadzone1.png" width="133" height="100"></td>
+					<td class = "movelist_name"><p class="movelist_header">Dead Zone</p></td>
+					<td class = "movelist_power_indicator"><img src="pages/movelists/files/state_type_icons/scouter_lvl3.png"></td>
+				</tr> 
+				<tr>
+					<td class = "movelist_command" colspan="3"><img src="pages/movelists/files/buttons/ri.gif" width="29" height="29"><img src="pages/movelists/files/buttons/do.gif" width="29" height="29"><img src="pages/movelists/files/buttons/le.gif" width="29" height="29"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"><img src="pages/movelists/files/buttons/plus.png" width="23" height="23"><img src="pages/movelists/files/buttons/k.gif" width="29" height="29"></td>
+					</tr>
+				<tr>
+					<td class = "movelist_type"><img src="pages/movelists/files/state_type_icons/stand.png" width="15" height="15"></td>
+					<td class = "movelist_info" colspan="2"><p class="movelist_info_text">Garlic Jr opens a rift to the Dead Zone. Long charge time, unblockable. Grants 7 stacks of super armor.</p></td>
+				</tr>
+			</table>
+		</div>
+    </div>	
+</div>
+<br/>
+<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+<br/>
+<h3>Chains and Fighting Tips:</h3>
+<table class="text_block">
+	<tr>
+		<td width = "540"> <font face="verdana" color="#ccccdd" size=1.5>
+			<b>1.</b> When using the <b>Ki Repeater</b> special attack, continue tapping any 'P' button to chain up to 3 energy blasts!</br>
+			<b>2.</b> <b>Instantaneous Chain Combo</b> (Teleport Attacks) can be used:</br>
+				--after a successful <b>Throw</b>.</br>
+				--after a successful <b>Launcher</b></br>
+				--after a successful, fully-charged <b>Power Kick</b>.</br>
+			<b>3.</b> Avoid using power/energy consuming attacks when your power is low to avoid tiring out.</br>
+			<b>4.</b> Escape from Tired/Dizzy faster by tapping P and K buttons rapidly, if you succesfully recover, you will regain a small amount of power.</br>
+			<b>5.</b> Attacks do less damage after each successful hit in a combo. After 10 hits you can only do 20% damage per attack. Supers are not affected by this.</br>
+			<b>6.</b> Use air dash wisely, excessive use causes energy loss. When out of power you may only use a single air dash before landing.</br>
+			<b>7.</b> Use <b>Advance Guard</b> if you are caught in a corner and only able to block.</br>
+			<b>8.</b> Follow <b>Hellfire Kick</b> with <b>Makyo Meteor</b> for even heavier damage.</br>
+			<b>9.</b> Follow <b>Shoulder Bash</b> with <b>Garlic Dash and Smash</b> for more damage.</br>
+			<b>10.</b> <b>Recover</b> from certain falling states by pressing PP or KK.</br>
+		</td>
+	</tr>
+</table>
+<br/>
+<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+<br/>
+<h3><a name="C5">Credits and Shout Outs:</a></h3>
+<table class="general">
+	<tr>
+		<td>
+			<b>Akira Toriyama</b> - Dragon Ball/Z/Kai.</br>
+			<b>Elecbyte</b> - For MUGEN.</br>
+			<b>Bandai</b> - The Super Butouden series.</br>
+			<b>Atari/Dimps</b> - The Budokai and Budokai Tenkaichi games.</br>
+			<b>SNK/NeoGeo</b> - Some Sounds and effects.</br>
+			<b>SquareSoft</b> - The sparkle effect.</br>
+			<b>Shigeru Chiba</b> - The voice acting! (Jp)</br>
+			<b>Chuck Huber</b> - The voice acting again! (En)</br>
+			<b>SesMCM</b> - For MCM.</br>
+			<b>VirtuallTek</b> - For Fighter Factory.</br>
+			<b>Benhazard</b> - The excellent Garlic Jr 2.0 sprites and some new ideas.</br>
+			<b>Chrono_Strife</b> - Coding, Effects, Sounds, and old sprites.</br>
+			<b>Roken</b> - Garlic Jr's Head, a sweet pallette, and the original Afterimage Glow/Pulse Aura code!</br>
+			<b>Rai Tei</b> - Some additional custom sprites, such as Garlic's old overhead throw!</br>
+			<b>Neocide</b> - Old version Beta Testing, ideas, and Mr. Motivation!</br>
+			<b>Pextin</b> - Old version Beta tester.</br>
+			<b>TK</b> - Dead Zone Ideas, such as Garlic being sucked up himself.</br>
+			<b>Toad</b> - The standard aura.</br>
+			<b>Orochi Gill</b> - You Youtube videos, which gave motivation.</br>
+			<b>ggslash</b> - For some of the old FX.</br>
+			<b>Mattasaur</b> - The old KOF2000 hitsparks.</br>
+			<b>Cacuke</b> - The particle aura and base code and ideas.</br>
+			<b>ZGT/ZGTKai Team</b> - Inspiration and support.</br>
+			<b>DGZ Team</b> - Inspiration.</br>
+			<b>DBZ 1nfinity Team</b> - Inspiration.</br>
+			<b>Adam @ www.silver-dawn.net</b> - Buttons for the command list.</br>
+			<b>Drifter85m</b> - Scouter fanart used for the scouter sprite(s) in this ReadMe.</br>
+			<b>ZGTeam Forum, RokCorp Forum, Mugen Generations, and Mugen Fighters Guild Forums</b>
+			</br></br>
+			Everyone else that I have missed.</br> E-mail me if I left you out.</br>
+		</td>
+	</tr>
+</table>
+<br/>
+<img src="pages/movelists/files/news-border-image.png" class="divider1"><br/>
+<br/>
+</td></tr>
+</table>
+</div>

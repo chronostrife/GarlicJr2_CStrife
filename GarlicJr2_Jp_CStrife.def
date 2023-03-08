@@ -1,0 +1,44 @@
+; Definition file for Garlic Jr 2.1 by Chrono_Strife and Benhazard
+; English VA: Chuck Huber
+; Japanese VA: Shigeru Chiba
+;
+; Contains all the filenames needed for the character
+
+; Player information
+[Info]
+name = "GarlicJr_CS"                   ;Name of character
+displayname = "Garlic Jr"              ;Name of character to display
+author = "Chrono_Strife and Benhazard" ;Character author name
+versiondate = 2015.03.07               ;Version date of character (YYYY.MM.DD)
+mugenversion = 1.1                     ;Version of M.U.G.E.N character works on
+pal.defaults =         	               ;Default palettes in order of preference
+localcoord = 320, 240                  ;Character Coords
+;localcoord = 426.66,320.25            ;Alt Coords
+
+; Files for the player
+[Files]
+cmd       = coding/GarlicJrCMD.cmd      ;Command set
+cns       = coding/GarlicJrCNS.cns      ;Constants
+st        = coding/GarlicJrCNS.cns      ;States
+st2       = coding/HelpersCNS.st        ;Helper States
+st3       = coding/P2Customs.st         ;Custom Hit States
+stcommon  = coding/commonCNS.cns        ;Common states
+sprite    = graphical/GarlicJrSFF.sff   ;Sprite
+anim      = coding/GarlicJrAIR.air      ;Animation
+;sound     = audio/GarlicJr_En_SND.snd  ;Sound - English Voice Acting
+sound     = audio/GarlicJr_Jp_SND.snd   ;Sound - Japanese Voice Acting
+
+; Maps character selection buttons to palette numbers.
+[Palette Keymap]
+a = 1   ;Garlic Jr-Deadzone
+b = 2   ;Demon
+c = 3   ;Bojack
+x = 4   ;Garlic Jr-Anime
+y = 5   ;Stone
+z = 6   ;Piccolo
+a2 = 7  ;Evil
+b2 = 8  ;Pale
+c2 = 9  ;Bronze Golem
+x2 = 10 ;Grape
+y2 = 11 ;Blueberry
+z2 = 12 ;Dark Convert-Xenoverse
